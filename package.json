@@ -13,6 +13,7 @@
     "export": "slidev export --timeout 60000 --with-clicks --with-toc",
     "export-notes": "slidev export-notes",
     "lint": "textlint slides.md",
+    "workspace:run": "node scripts/runWorkSpace.js",
     "workspace:new": "node scripts/generateNewWorkSpace.js"
   },
   "dependencies": {
