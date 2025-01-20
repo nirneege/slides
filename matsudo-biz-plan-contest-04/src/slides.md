@@ -1,16 +1,25 @@
 ---
 # You can also start simply with 'default'
-theme: seriph
+theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: ITコミュニティと連動したコワーキングスペース事業
+author: nirneege system
+titleTemplate: "%s"
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## ITコミュニティと連動したコワーキングスペース事業
 
-  Learn more at [Sli.dev](https://sli.dev)
+  nirneege system
+
+fonts:
+  sans: Noto Sans JP
+  serif: Noto Serif JP
+  mono: Noto Sans Mono
+
+addons:
+- "@katzumi/slidev-addon-qrcode"
+
 # apply unocss classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
@@ -20,23 +29,20 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+colorSchema: light
 ---
 
-# Welcome to Slidev
+<h1>
+ITコミュニティと連動した<br>
+コワーキングスペース事業
+</h1>
 
-Presentation slides for developers
+<p class="text-black-800">学びの循環を重視するIT学習スタイルの提案</p>
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
+<p class="text-right">ここにQRコードを配置</p>
 
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
+<div class="absolute bottom-0 right-0 p-4">
+  ここにnirneege のロゴ
 </div>
 
 <!--
@@ -47,42 +53,27 @@ The last comment block of each slide will be treated as slide notes. It will be 
 transition: fade-out
 ---
 
-# What is Slidev?
+<h1>発表者紹介</h1>
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
+<div class="grid grid-cols-2 gap-4">
+  <div>
+    <ul>
+    <li>小口雄大</li>
+    <li>ソフトウェアエンジニア</li>
+    <li>2021 年にnirneege システムの屋号で独立</li>
+    <li>設計から実装・保守対応までワンストップで対応</li>
+    <li>プログラミング研修講師</li>
+    <li>プログラミング学習者向け個別メンタリング</li>
+    <li><a href="https://www.resume.id/y_uchiida">https://www.resume.id/y_uchiida</a></li>
+    <li><QRCode value="https://www.resume.id/y_uchiida" :width="180" :height="180" /></li>
+    </ul>
+  </div>
+  <div class="relative">
+    <div class="absolute bottom-0 right-0 m-8 ">
+      <img src="/img/portrait.jpg" class="bg-black-800 w-42 h-42 b-1 object-cover rounded-full" alt="Portrait">
+    </div>
+  </div>
+</div>
 
 ---
 transition: slide-up
