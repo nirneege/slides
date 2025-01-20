@@ -1,0 +1,44 @@
+// https://aka.ms/devcontainer.json
+{
+  "name": "nirneege-slides",
+  "dockerComposeFile": "docker-compose.yml",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "service": "slidev",
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "",
+  "initializeCommand": "sh .devcontainer/initializeCommand.sh",
+  "postCreateCommand": "sh .devcontainer/postCreateCommand.sh",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["slides.md"]
+    },
+    "vscode": {
+      "extensions": [
+        "antfu.slidev",
+        "Vue.volar",
+        "ms-vscode-remote.remote-containers",
+        "GitHub.codespaces",
+        "ms-vscode.makefile-tools",
+        "antfu.unocss",
+        "simonhe.unocss-test",
+        "simonhe.to-unocss",
+        "mhutchie.git-graph",
+        "DavidAnson.vscode-markdownlint",
+        "vivaxy.vscode-conventional-commits"
+      ]
+    }
+  },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
+  "portsAttributes": {
+    "3030": {
+      "label": "Slidev",
+      "protocol": "http",
+      "onAutoForward": "openPreview",
+      "requireLocalPort": true
+    }
+  },
+  "remoteUser": "node"
+}

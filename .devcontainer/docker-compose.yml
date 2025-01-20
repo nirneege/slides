@@ -1,0 +1,20 @@
+services:
+  slidev:
+    build:
+      context: ..
+      dockerfile: ./.devcontainer/slidev.Dockerfile
+      args:
+        USER_NAME: ${DEVCONTAINER_USER_NAME}
+        USER_ID: ${DEVCONTAINER_USER_ID}
+        GROUP_ID: ${DEVCONTAINER_GROUP_ID}
+    env_file:
+      - ../.env
+    environment:
+      DEVCONTAINER_USER_NAME: ${DEVCONTAINER_USER_NAME:-node}
+      DEVCONTAINER_USER_ID: ${DEVCONTAINER_USER_ID:-1000}
+      DEVCONTAINER_GROUP_ID: ${DEVCONTAINER_GROUP_ID:-1000}
+    volumes:
+      - ../:/workspace
+    ports:
+      - 3030:3030
+    tty: true
