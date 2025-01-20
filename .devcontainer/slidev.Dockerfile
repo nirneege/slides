@@ -11,6 +11,8 @@ ENV GROUP_ID=${GROUP_ID:-1000}
 RUN apt update && \
     apt install -y build-essential gh make
 
+RUN corepack enable
+
 # 環境変数で指定したUID, GID のユーザーを作成
 # 既に存在している場合は、ユーザーを削除して作り直す
 RUN \
@@ -27,3 +29,7 @@ RUN \
 
 USER $USER_NAME
 WORKDIR /workspace
+
+RUN corepack 
+# install pnpm
+RUN corepack enable pnpm
