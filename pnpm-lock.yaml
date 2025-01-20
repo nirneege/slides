@@ -79,11 +79,7 @@ importers:
         specifier: ^12.0.2
         version: 12.0.2
 
-  matsudo-biz-plan-contest-04/src:
-    dependencies:
-      '@katzumi/slidev-addon-qrcode':
-        specifier: ^0.0.17
-        version: 0.0.17
+  matsudo-biz-plan-contest-04/src: {}
 
 packages:
 
