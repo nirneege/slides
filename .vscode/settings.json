@@ -1,3 +1,8 @@
 {
-  "conventionalCommits.scopes": ["npm", "Docker"]
+  "conventionalCommits.scopes": [
+    "npm",
+    "Docker",
+    "pnpm",
+    "Scripts"
+  ]
 }

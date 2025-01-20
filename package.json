@@ -12,7 +12,8 @@
     "dev:local": "slidev",
     "export": "slidev export --timeout 60000 --with-clicks --with-toc",
     "export-notes": "slidev export-notes",
-    "lint": "textlint slides.md"
+    "lint": "textlint slides.md",
+    "workspace:new": "node scripts/generateNewWorkSpace.js"
   },
   "dependencies": {
     "@katzumi/slidev-addon-qrcode": "^0.0.17",
