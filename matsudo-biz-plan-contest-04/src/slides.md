@@ -32,6 +32,9 @@ mdc: true
 colorSchema: light
 ---
 
+<div id="cover-bg">
+</div>
+
 <h1>
 ITコミュニティと連動した<br>
 コワーキングスペース事業
@@ -39,11 +42,24 @@ ITコミュニティと連動した<br>
 
 <p class="text-black-800">学びの循環を重視するIT学習スタイルの提案</p>
 
-<p class="text-right">ここにQRコードを配置</p>
-
-<div class="absolute bottom-0 right-0 p-4">
-  ここにnirneege のロゴ
+<div class="absolute bottom-0 right-0 p-4 text-right">
+  <div class="flex flex-col items-end">
+    <p class="text-gray-600">nirneege system 小口雄大</p>
+    <img src="/img/nirneege_logo.png" class="w-42" alt="QR Code">
+  </div>
 </div>
+
+<style>
+  #cover-bg {
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+</style>
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
