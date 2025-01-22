@@ -92,8 +92,131 @@ transition: fade-out
 </div>
 
 ---
-transition: slide-up
-level: 2
+
+# 社会の課題と動向
+
+<div class="flex flex-row gap-4">
+
+  <div class="flex-1">
+
+  <ul>
+    <li class="py-4">リモートワーク時代の変化
+      <ul>
+        <li>働く場所の多様化</li>
+        <li>オフライン交流の重要性</li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li class="py-4">IT 学習者の課題
+      <ul>
+        <li>忙しい日々の中、モチベーションを保てない</li>
+        <li>変化が早く、単独でキャッチアップし続けられない</li>
+      </ul>
+    </li>
+  </ul>
+
+  </div>
+
+  <div class="flex-1">
+
+  <ul>
+    <li class="py-4">IT 人材不足の深刻化
+      <ul>
+        <li>デジタル化の加速による人材需要増</li>
+        <li>2030 年に最大 79 万人不足</li>
+      </ul>
+    </li>
+  </ul>
+
+  <a href="/img/shotage_of_engineer.png" target="_blank">
+    <img id="zooming" src="/img/shotage_of_engineer.png" class="w-max" alt="IT人材不足のグラフ">
+  </a>
+  </div>
+
+</div>
+
+<div class="absolute bottom-0 right-0 p-4 text-right">
+  <p class="text-xs text-gray-600">出典: 経済産業省「IT人材の最新動向と将来推計に関する調査結果」</p>
+</div>
+
+
+---
+
+# 本事業による課題解決
+
+以下のサービスを複合的に提供し、持続可能な IT 人材育成の仕組みを実現
+
+<div class="grid grid-cols-3 mt-6">
+  <div class="flex flex-col items-center">
+    <div class="text-6xl mb-6">🔄</div>
+    <h3 class="text-xl font-bold mb-2">学びの循環を促す<br>コミュニティ</h3>
+    <ul class="community">
+      <li>経験者と初学者の交流</li>
+      <li>技術勉強会の定期開催</li>
+      <li>ナレッジ共有の仕組み</li>
+    </ul>
+  </div>
+
+  <div class="flex flex-col items-center">
+    <div class="text-6xl mb-6">📚</div>
+    <h3 class="text-xl font-bold mb-2">未経験者・初学者を<br>支援するトレーニング</h3>
+    <ul class="training">
+      <li>段階的な学習カリキュラム</li>
+      <li>実務経験者によるメンタリング</li>
+      <li>チーム開発体験の機会</li>
+    </ul>
+  </div>
+
+  <div class="flex flex-col items-center">
+    <div class="text-6xl mb-6">🏢</div>
+    <h3 class="text-xl font-bold mb-2">目的に合わせて活用できる<br>コワーキングスペース</h3>
+    <ul class="coworking">
+      <li>交流ゾーン/集中ゾーン</li>
+      <li>モニター等備品の貸出</li>
+      <li>高速Wi-Fi環境</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  ul li {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  ul.community li::before {
+    content: '🔄';
+    margin-right: 0.5rem;
+  }
+  ul.training li::before {
+    content: '📚';
+    margin-right: 0.5rem;
+  }
+  ul.coworking li::before {
+    content: '🏢';
+    margin-right: 0.5rem;
+  }
+</style>
+
+---
+
+# 本事業の提供価値
+
+---
+
+# ターゲット
+
+---
+
+# 収支計画
+
+---
+
+# まとめ
+
 ---
 
 # Navigation
