@@ -78,7 +78,7 @@ transition: fade-out
     <li>ソフトウェアエンジニア</li>
     <li>2021 年にnirneege システムの屋号で独立</li>
     <li>設計から実装・保守対応までワンストップで対応</li>
-    <li>プログラミング研修講師</li>
+    <li>プログラミング研修講師、教材開発</li>
     <li>プログラミング学習者向け個別メンタリング</li>
     <li><a href="https://www.resume.id/y_uchiida">https://www.resume.id/y_uchiida</a></li>
     <li><QRCode value="https://www.resume.id/y_uchiida" :width="180" :height="180" /></li>
@@ -100,6 +100,21 @@ transition: fade-out
   <div class="flex-1">
 
   <ul>
+    <li class="py-4">IT 人材不足の深刻化
+      <ul>
+        <li>デジタル化の加速による人材需要増</li>
+        <li>2030 年に最大 79 万人不足</li>
+      </ul>
+    </li>
+  </ul>
+
+  <a href="/img/shotage_of_engineer.png" target="_blank">
+    <img id="zooming" src="/img/shotage_of_engineer.png" class="w-max" alt="IT人材不足のグラフ">
+  </a>
+  </div>
+  <div class="flex-1">
+
+  <ul>
     <li class="py-4">リモートワーク時代の変化
       <ul>
         <li>働く場所の多様化</li>
@@ -117,22 +132,6 @@ transition: fade-out
     </li>
   </ul>
 
-  </div>
-
-  <div class="flex-1">
-
-  <ul>
-    <li class="py-4">IT 人材不足の深刻化
-      <ul>
-        <li>デジタル化の加速による人材需要増</li>
-        <li>2030 年に最大 79 万人不足</li>
-      </ul>
-    </li>
-  </ul>
-
-  <a href="/img/shotage_of_engineer.png" target="_blank">
-    <img id="zooming" src="/img/shotage_of_engineer.png" class="w-max" alt="IT人材不足のグラフ">
-  </a>
   </div>
 
 </div>
@@ -203,564 +202,326 @@ transition: fade-out
 
 ---
 
-# 本事業の提供価値
+<div class="flex flex-col gap-4">
+
+  <div>
+    <h1>
+    本事業を通じて目指す社会
+    </h1>
+  </div>
+  <div class="text-2xl">
+    テクノロジーの力で、誰もが自分らしく働ける社会を創る
+  </div>
+
+- 地域に根差したIT 人材プラットフォームとして、地域経済の活性化に貢献
+- 高度化する情報化社会に対応できる人材の育成
+- 地方都市における新たな働き方のロールモデル確立
+- 多様な人材の IT 業界参入促進
+- SIer 依存からの脱却、ユーザー企業の IT 技術力向上
+
+</div>
+
+
+---
+layout: image-right
+image: /img/learning_image.jpg
+transition: slide-up
+level: 1
+---
+
+# 本事業の提供価値 - 1
+
+<div class="text-xl">
+<p>コミュニティを通じた学びの循環</p>
+</div>
+<div v-click-hide>
+
+- Peer Learning
+  - メンバーが相互に教え、学びあう
+  - 教える側の理解を深める
+
+- コミュニティからの学習テーマ提供
+  - メンバー主体の勉強会の開催
+  - 技術トレンドのキャッチアップ
+
+- 知見の共有と蓄積
+  - コミュニティ主催イベント
+  - イベント開催レポート
+
+</div>
+
+<v-after>
+
+<div class="m-0">
+コミュニティでの活動内容案
+</div>
+
+- もくもく会
+- 資格取得にむけた勉強会
+- 技術書輪読会
+- プロジェクトチーム活動
+- LT会
+- シビックテックの取り組み
+
+これらのイベントを有機的に関連させ、<br />
+実践的な学びの機会を提供する
+
+</v-after>
+
+<style>
+  .slidev-vclick-hidden {
+    display: none;
+  }
+</style>
+
+
+---
+layout: image-right
+image: /img/beginner_curriculum.jpg
+transition: slide-up
+level: 2
+---
+
+# 本事業の提供価値 - 2
+
+<div class="text-xl">
+<p>初学者のための入門カリキュラム</p>
+</div>
+
+- アウトプット重視の学習
+  - 体験を通じた概念把握
+  - 試行錯誤の楽しさ・面白さ
+
+- コミュニティを通じた応用・発展
+  - チーム開発体験の機会
+  - ロールモデルの具体化
+
+- 実務に即したスキルアップ
+  - 地域企業のニーズに沿ったカリキュラム
+  - 各種ツールチェインの習得
+
+---
+layout: image-right
+image: /img/coworking_space.jpg
+level: 3
+---
+
+# 本事業の提供価値 - 3
+
+<div class="text-xl">
+<p>使いやすいコワーキングスペース</p>
+</div>
+
+- スペースの工夫
+  - 気軽に立ち寄れる立地
+  - 交流ゾーン/集中ゾーン
+  - 柔軟な利用プラン
+
+- IT 関連に特化した設備
+  - モニター等の配置、貸出
+  - 技術書籍の貸出
+  - 高速 Wi-Fi 環境
 
 ---
 
 # ターゲット
 
+<div class="text-sm">
+松戸市周辺の以下の属性の方が主な顧客層
+</div>
+
+<div class="text-[12px]">
+
+| ターゲットの属性・職種                 | ニーズ                                                           |
+| ------------------------------------ | ---------------------------------------------------------------- |
+| プログラマー                          | 新しい技術に触れたいが、何を学べばよいか選定できない                  |
+| システムエンジニア                     | 仕様設計やシステムアーキテクチャについて、ざっくばらんに意見交換したい |
+| Web デザイナー                        | デザインスキルを磨くための機会が欲しい                              |
+| Web ディレクター                      | 幅広く IT 関連の知識を得たい                                       |
+| SEO コンサルタント                    | 効果的な広告アルゴリズムについて、実装ができる人の話を聞いてみたい     |
+| インフラエンジニア                    | 社外のインフラ環境について興味がある                                 |
+| その他 IT 関連職種の人                | 幅広く IT 関連の知識を得たい                                        |
+| 大学生                               | 専攻分野のほかに、将来の職業スキルに役立つ学習をしたい                 |
+| IT 関連分野で就職・活動中の人          | IT 業界に関する情報を集めたい                                       |
+
+</div>
+
 ---
 
-# 収支計画
+# マーケティングと成長戦略
+
+<div v-click-hide>
+
+- 以下の市場機会をとらえることを基本方針とする
+  - IT 人材不足という社会課題
+  - リモートワークの普及によるコワーキングスペース需要の増加
+
+- 本事業の強み
+  - IT に特化した専門性の高いサービス構成
+  - 松戸市内での独自のポジション
+  - Peer learning を採用した運営スタイル
+
+- 競合との差別化ポイント
+  - オンラインとオフラインを組み合わせたハイブリッドなコミュニティ運営
+  - 未経験者向けのカリキュラム提供
+  - 地域企業へのヒアリングに応じたイベント、学習テーマの設定
+
+</div>
+
+<v-after>
+
+- プロモーション活動
+  - オンラインとオフラインの両面から展開
+  - SNS を活用した情報発信
+  - MEO 対策による 集客強化
+  - テックブログの運営
+  - コミュニティメンバーの学習記録や成功事例の発信
+
+- 顧客獲得のための施策
+  - コミュニティメンバーの口コミによる拡大
+  - イベント開催やセミナーのゲスト参加
+  - シビックテックや地域イベントへの参加
+
+</v-after>
+
+<style>
+  .slidev-vclick-hidden {
+    display: none;
+  }
+</style>
+
+---
+
+<div class="flex flex-col h-full gap-2">
+  <div>
+    <h1 class="mb-0">
+      収支計画
+    </h1>
+  </div>
+
+  <div class="text-md">
+    コワーキングスペースの月額会員50名、コミュニティ会員数100名を達成し、約1600万の年間利益を目指す
+  </div>
+
+  <div class="flex-1 h-0 max-h-full">
+    <ProfitPlanningSammaryGraph />
+  </div>
+
+  <div class="flex-0 text-gray-500 text-xs ">
+    <p class="p-0 m-0!">
+      ※ 単位: 千円
+    </p>
+    <p class="p-0 m-0!">
+      ※ 安定売上は月額会員契約などのサブスクリプション利用の売上、流動売上はドロップイン利用料などの単発サービス利用の売上の集計
+    </p>
+  </div>
+
+</div>
 
 ---
 
 # まとめ
 
----
+<div class="grid grid-cols-2 gap-8">
+  <div class="space-y-4">
 
-# Navigation
+  ## 本事業の特徴
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
+  - 学びの循環を重視した新しい IT 学習モデル
+    - コミュニティを通じた相互成長
+    - 実践的なトレーニングプログラム
+    - 柔軟な学習環境の提供
 
-## Keyboard Shortcuts
+  - 地域に根差したIT 人材育成プラットフォーム
+    - 市内外の IT 人材との交流
+    - 地域企業との連携
+    - 安定売上による持続可能性
 
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
   </div>
 
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
+  <div class="space-y-4">
+
+  ## 今後の展望
+
+  - 3年後の具体的目標
+    - 月額会員 50名以上
+    - コミュニティ会員 100名以上
+    - 年間売上 1600 万円以上
+
+  - 成長戦略
+    - コミュニティ活動の拡大
+    - 提供カリキュラム、開催イベントの充実
+    - コワーキングスペースの増床、新拠点の開設
+
   </div>
 </div>
 
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
+<div class="w-full">
+<div class="text-center bg-blue-50 dark:bg-blue-900 mx-auto max-w-4xl rounded-lg p-2 mt-4">
+IT人材不足という社会課題に対し、<br>地域に根差した持続可能な解決モデルを提供します
 </div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
 </div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
 
 ---
 layout: center
-class: text-center
 ---
 
-# Learn More
+# 追補資料
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+---
 
-<PoweredBySlidev mt-10 />
+# コワーキングスペースの想定座席数
+
+| タイプ・ブースタイプ | 席数 | 備考 |
+| ------------------- | ---- | ---- |
+| テーブル席 |10| 長テーブルを共有する座席タイプ。会話 OK |
+| テーブル席          | 10   | 長テーブルを共有する座席タイプ。会話 OK |
+| デスク席            | 10   | デスク 1 台に 1 つの座席。会話 OK 会話 NG |
+| サイレント席        | 20   | 仕切りつきデスク 1 台に 1 つの座席。会話 NG |
+| 個室ブース          | 5    | 1 人で利用できる個室 |
+| 会議室ブース        | 2    | 10 人まで入れる会議室 |
+
+---
+
+# コワーキングスペースの料金プラン案
+
+<div class="text-sm">
+
+| 座席タイプ・ブースタイプ名称 | 料金           | 備考                         |
+| ----------------------------- | -------------- | ---------------------------- |
+| ドロップイン利用              | 400 円/時      |                              |
+| ドロップイン利用(学割)        | 300 円/時      |                              |
+| ワンデー利用                  | 2,000 円/日    |                              |
+| ワンデー利用(学割)            | 1,500 円/日    |                              |
+| 月額利用                      | 19,800 円/月   |                              |
+| 月額利用(学割)                | 14,800 円/月   |                              |
+| 個室ブース利用料              | 300 円/時      | 通常利用料に追加             |
+| 会議室利用料                  | 1,500 円/時    | 通常利用料不要、人数は関係なし |
+
+</div>
+
+---
+
+# IT コミュニティの料金プラン案
+
+| プラン名称                | 料金       | 備考                                                                 |
+| ------------------------- | ---------- | -------------------------------------------------------------------- |
+| コミュニティメンバー       | 1,000 円/月 | クローズドイベント含め、すべてのイベントに参加できる。<br>オープンイベントに優先参加できる |
+| コミュニティメンバー(学割) | 700 円/月   |                                                                      |
+
+---
+
+# 初学者向けカリキュラムの料金プラン案
+
+<div class="text-sm">
+
+| プラン名称                        | 料金           | 備考                                                                 |
+| --------------------------------- | -------------- | -------------------------------------------------------------------- |
+| カリキュラム個別購入              | 5,000 円       | カリキュラムごとに異なる料金を設定する予定。基準額として 5,000 円を想定 |
+| カリキュラム個別購入(学割)        | 3,500 円       |                                                                      |
+| カリキュラム月額利用              | 15,000 円/月   | すべてのトレーニングカリキュラムを利用できる                           |
+| カリキュラム月額利用(学割)        | 10,000 円/月   |                                                                      |
+| 学習支援メンタリング(1 回)        | 4,000 円/1 回  |                                                                      |
+| 学習支援メンタリング(セット)      | 35,000 円      | 3 か月間、10 回セット。                                               |
+
+</div>
