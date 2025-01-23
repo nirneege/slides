@@ -440,10 +440,10 @@ level: 3
   </div>
 
   <div class="flex-0 text-gray-500 text-xs ">
-    <p class="p-0 m-0!">
+    <p class="py-1! px-2 m-0!">
       ※ 単位: 千円
     </p>
-    <p class="p-0 m-0!">
+    <p class="py-1! px-2 m-0!">
       ※ 安定売上は月額会員契約などのサブスクリプション利用の売上、流動売上はドロップイン利用料などの単発サービス利用の売上の集計
     </p>
   </div>
@@ -554,5 +554,103 @@ layout: center
 | カリキュラム月額利用(学割)        | 10,000 円/月   |                                                                      |
 | 学習支援メンタリング(1 回)        | 4,000 円/1 回  |                                                                      |
 | 学習支援メンタリング(セット)      | 35,000 円      | 3 か月間、10 回セット。                                               |
+
+</div>
+
+
+---
+layout: default
+---
+
+# 損益の見通し
+
+<div class="mt-4">
+
+  <p class="py-1! px-2 m-0! text-xs text-gray-600">
+    ※ 単位: 千円
+  </p>
+
+<div class="overflow-x-auto">
+<table class="w-full text-sm">
+  <thead class="bg-gray-100">
+    <tr>
+      <th class="py-1! px-2 text-left">項目</th>
+      <th class="py-1! px-2 text-right">1年目</th>
+      <th class="py-1! px-2 text-right">2年目</th>
+      <th class="py-1! px-2 text-right">3年目</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="border-b">
+      <td class="py-1! px-2 font-medium">売上高</td>
+      <td class="py-1! px-2 text-right">19,014</td>
+      <td class="py-1! px-2 text-right">30,422</td>
+      <td class="py-1! px-2 text-right">38,028</td>
+    </tr>
+    <tr class="border-b">
+      <td class="py-1! px-2 font-medium">売上原価</td>
+      <td class="py-1! px-2 text-right">0</td>
+      <td class="py-1! px-2 text-right">0</td>
+      <td class="py-1! px-2 text-right">0</td>
+    </tr>
+    <tr class="border-b bg-gray-100">
+      <td class="py-1! px-2 font-medium">売上総利益</td>
+      <td class="py-1! px-2 text-right">19,014</td>
+      <td class="py-1! px-2 text-right">30,422</td>
+      <td class="py-1! px-2 text-right">38,028</td>
+    </tr>
+    <tr class="border-b">
+      <td class="py-1! px-2 pl-4">人件費</td>
+      <td class="py-1! px-2 text-right">4,320</td>
+      <td class="py-1! px-2 text-right">10,800</td>
+      <td class="py-1! px-2 text-right">12,960</td>
+    </tr>
+    <tr class="border-b">
+      <td class="py-1! px-2 pl-4">地代・家賃</td>
+      <td class="py-1! px-2 text-right">6,600</td>
+      <td class="py-1! px-2 text-right">6,600</td>
+      <td class="py-1! px-2 text-right">6,600</td>
+    </tr>
+    <tr class="border-b">
+      <td class="py-1! px-2 pl-4">広告宣伝費</td>
+      <td class="py-1! px-2 text-right">200</td>
+      <td class="py-1! px-2 text-right">200</td>
+      <td class="py-1! px-2 text-right">200</td>
+    </tr>
+    <tr class="border-b">
+      <td class="py-1! px-2 pl-4">その他経費</td>
+      <td class="py-1! px-2 text-right">1,385</td>
+      <td class="py-1! px-2 text-right">1,385</td>
+      <td class="py-1! px-2 text-right">1,385</td>
+    </tr>
+    <tr class="border-b bg-gray-100">
+      <td class="py-1! px-2 font-medium">営業利益</td>
+      <td class="py-1! px-2 text-right">6,509</td>
+      <td class="py-1! px-2 text-right">11,437</td>
+      <td class="py-1! px-2 text-right">16,883</td>
+    </tr>
+    <tr class="border-b">
+      <td class="py-1! px-2 font-medium">営業外費用（利息）</td>
+      <td class="py-1! px-2 text-right">210</td>
+      <td class="py-1! px-2 text-right">178</td>
+      <td class="py-1! px-2 text-right">145</td>
+    </tr>
+    <tr class="bg-blue-50">
+      <td class="py-1! px-2 font-medium">経常利益</td>
+      <td class="py-1! px-2 text-right">6,299</td>
+      <td class="py-1! px-2 text-right">11,259</td>
+      <td class="py-1! px-2 text-right">16,738</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="mt-4 text-sm text-gray-600">
+
+- 3年後の売上目標を100%として、1年後を50%、2年後を80%に設定
+- 材料費等の売上原価は発生せず、販管費が主な費用
+- 人件費は従業員の時給1,500円、1日8時間、月30日で算出
+
+</div>
 
 </div>
