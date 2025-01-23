@@ -62,6 +62,37 @@ ITコミュニティと連動した<br>
   }
 </style>
 
+<script setup>
+import { onSlideEnter, onSlideLeave, useIsSlideActive } from '@slidev/client'
+
+onSlideEnter(() => {
+  const setParticulerBg = () => {
+    console.log('set particuler bg');
+    const elm = document.getElementById('cover-bg');
+    if (elm) {
+      if (elm.innerHTML) {
+        return;
+      }
+      particleground(elm, {
+        density: 10000,
+        dotColor: '#aaaaaa',
+        lineColor: '#cccccc',
+        density: 10000,
+        proximity: 100,
+        particleRadius: 4,
+        curvedLines: false,
+        proximity: 100,
+        parallax: false,
+      });
+    } else {
+      setTimeout(setParticulerBg, 500);
+    }
+  }
+  setParticulerBg();
+})
+
+</script>
+
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
