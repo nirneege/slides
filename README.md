@@ -41,5 +41,5 @@ pnpm run -r build
 プロジェクトルートで以下のコマンドを実行
 
 ```bash
-pnpx wrangler pages deploy dist
+pnpm run deproy
 ```
