@@ -1,6 +1,5 @@
 node_modules
 .DS_Store
-dist
 docs
 *.local
 .remote-assets
@@ -32,7 +31,6 @@ _docpress
 .DS_Store
 
 lib
-dist
 tsconfig.tsbuildinfo
 test.lib/
 
@@ -68,3 +66,6 @@ RELEASE.md
 __fixtures__/custom-modules-dir/**/fake_modules/
 __fixtures__/custom-modules-dir/cache/
 __fixtures__/custom-modules-dir/patches/
+
+dist/**/*/
+!dist/_redirects
