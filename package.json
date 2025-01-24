@@ -22,6 +22,7 @@
     "@slidev/cli": "^51.0.2",
     "@slidev/theme-default": "^0.25.0",
     "@slidev/theme-seriph": "^0.25.0",
+    "qrcode.vue": "^3.6.0",
     "slidev-addon-components": "^0.0.1",
     "slidev-addon-rabbit": "^0.4.0"
   },
