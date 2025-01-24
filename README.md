@@ -41,5 +41,5 @@ pnpm run -r build
 プロジェクトルートで以下のコマンドを実行
 
 ```bash
-pnpm run deproy
+pnpm run deploy
 ```

@@ -10,7 +10,7 @@
     "dev": "npm run dev:remote",
     "dev:remote": "slidev --remote",
     "dev:local": "slidev",
-    "deproy": "pnpx wrangler pages deploy dist",
+    "deploy": "pnpx wrangler pages deploy dist",
     "export": "slidev export --timeout 60000 --with-clicks --with-toc",
     "export-notes": "slidev export-notes",
     "lint": "textlint slides.md",
