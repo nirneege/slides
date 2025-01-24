@@ -43,11 +43,18 @@ ITコミュニティと連動した<br>
 
 <p class="text-black-800">学びの循環を重視するIT学習スタイルの提案</p>
 
-<div class="absolute bottom-0 left-0 p-1 text-left flex flex-row gap-0">
+<div class="absolute bottom-0 left-0 p-4 text-left flex flex-row gap-2">
   <div class="bg-white">
-    <QRCode value="https://x.gd/Q7sO3" :width="120" :height="120" />
+      <qrcode-vue
+        value="https://x.gd/Q7sO3"
+        level="M"
+        size="100"
+        margin="1"
+        background="#ffffff"
+        foreground='#111111'
+      />
   </div>
-  <div class="flex flex-col items-start py-4">
+  <div class="flex flex-col items-start">
     <p class="text-gray-500 text-sm m-0!">URL/QRコードから本資料を閲覧できます</p>
     <a href="https://x.gd/Q7sO3" target="_blank">https://x.gd/Q7sO3</a>
   </div>
@@ -74,6 +81,7 @@ ITコミュニティと連動した<br>
 
 <script setup>
 import { onSlideEnter, onSlideLeave, useIsSlideActive } from '@slidev/client'
+import QrcodeVue from 'qrcode.vue'
 
 onSlideEnter(() => {
   const setParticulerBg = () => {
@@ -113,7 +121,7 @@ transition: fade-out
 
 <h1>発表者紹介</h1>
 
-<div class="grid grid-cols-2 gap-4">
+<div class="grid grid-cols-2 gap-4 h-full">
   <div>
     <ul>
     <li>小口雄大</li>
@@ -123,15 +131,28 @@ transition: fade-out
     <li>プログラミング研修講師、教材開発</li>
     <li>プログラミング学習者向け個別メンタリング</li>
     <li><a href="https://www.resume.id/y_uchiida">https://www.resume.id/y_uchiida</a></li>
-    <li><QRCode value="https://www.resume.id/y_uchiida" :width="180" :height="180" /></li>
+    <li>
+      <qrcode-vue
+        value="https://www.resume.id/y_uchiida"
+        level="M"
+        size="160"
+        margin="4"
+        background="#ffffff"
+        foreground='#111111'
+      />
+    </li>
     </ul>
   </div>
   <div class="relative">
-    <div class="absolute bottom-0 right-0 m-8 ">
+    <div class="absolute bottom-8 right-0 m-8">
       <img src="/img/portrait.jpg" class="bg-black-800 w-42 h-42 b-1 object-cover rounded-full" alt="Portrait">
     </div>
   </div>
 </div>
+
+<script setup>
+  import QrcodeVue from 'qrcode.vue'
+</script>
 
 ---
 
