@@ -43,7 +43,17 @@ ITコミュニティと連動した<br>
 
 <p class="text-black-800">学びの循環を重視するIT学習スタイルの提案</p>
 
-<div class="absolute bottom-0 right-0 p-4 text-right">
+<div class="absolute bottom-0 left-0 p-1 text-left flex flex-row gap-0">
+  <div class="bg-white">
+    <QRCode value="https://x.gd/Q7sO3" :width="120" :height="120" />
+  </div>
+  <div class="flex flex-col items-start py-4">
+    <p class="text-gray-500 text-sm m-0!">URL/QRコードから本資料を閲覧できます</p>
+    <a href="https://x.gd/Q7sO3" target="_blank">https://x.gd/Q7sO3</a>
+  </div>
+</div>
+
+<div class="absolute bottom-0 right-0 p-5 text-right">
   <div class="flex flex-col items-end">
     <p class="text-gray-600">nirneege system 小口雄大</p>
     <img src="/img/nirneege_logo.png" class="w-42" alt="QR Code">
@@ -58,7 +68,7 @@ ITコミュニティと連動した<br>
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: -10;
   }
 </style>
 
