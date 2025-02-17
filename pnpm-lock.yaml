@@ -31,8 +31,8 @@ importers:
         version: 0.4.0
     devDependencies:
       '@iconify-json/devicon':
-        specifier: ^1.2.11
-        version: 1.2.11
+        specifier: ^1.2.15
+        version: 1.2.15
       '@iconify-json/emojione':
         specifier: ^1.2.1
         version: 1.2.1
@@ -750,8 +750,8 @@ packages:
   '@iconify-json/carbon@1.2.5':
     resolution: {integrity: sha512-aI3TEzOrUDGhs74zIT3ym/ZQBUEziyu8JifntX2Hb4siVzsP5sQ/QEfVdmcCUj37kQUYT3TYBSeAw2vTfCJx9w==}
 
-  '@iconify-json/devicon@1.2.11':
-    resolution: {integrity: sha512-siDWSFqmPKOYiMvgixqsZ/0rbUXae1M7gF14vefBtFuKXJkTvr4WPzbv1ARc7rqQlkU8XZPyH1edCXO4uToTyw==}
+  '@iconify-json/devicon@1.2.15':
+    resolution: {integrity: sha512-q9tFSbMx6FBCjoFDJwSjUgyO65vjbtzSwMPc/fpiKE95bIIw2OP89Jcir2pvcQqDRjmzTFaUbpxj5QimqS/W+Q==}
 
   '@iconify-json/emojione-monotone@1.2.1':
     resolution: {integrity: sha512-cZSNcPsuiAD6HCzCh/2dYKGh3pNI0jJlxBxQWfC33cQsPtqYZqulGBvlkThXYNvDl8VxgVHT9u+izyX/yeEIkA==}
@@ -5219,7 +5219,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/devicon@1.2.11':
+  '@iconify-json/devicon@1.2.15':
     dependencies:
       '@iconify/types': 2.0.0
 
