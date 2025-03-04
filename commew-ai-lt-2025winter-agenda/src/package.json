@@ -9,5 +9,8 @@
     "dev:remote": "slidev --remote",
     "dev:local": "slidev",
     "lint": "textlint slides.md"
+  },
+  "dependencies": {
+    "@slidev/theme-apple-basic": "^0.25.1"
   }
 }
