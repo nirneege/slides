@@ -43,3 +43,6 @@ pnpm run -r build
 ```bash
 pnpm run deploy
 ```
+
+WSL2 で実行時、wrangler の認証でエラーになる場合は以下のページを参照
+- https://note.miksin.art/jp/notes/cloudflare/in_containers

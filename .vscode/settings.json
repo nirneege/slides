@@ -5,6 +5,7 @@
     "pnpm",
     "Scripts",
     "Documents",
-    "Git"
+    "Git",
+    "Build"
   ]
 }
