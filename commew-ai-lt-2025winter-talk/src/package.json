@@ -1,0 +1,13 @@
+{
+  "name": "src",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /commew-ai-lt-2025winter-talk/ --out ../../dist/commew-ai-lt-2025winter-talk",
+    "dev": "npm run dev:remote",
+    "export": "slidev export --timeout 60000 --with-clicks --with-toc --output ../commew-ai-lt-2025winter-talk.pdf",
+    "dev:remote": "slidev --remote",
+    "dev:local": "slidev",
+    "lint": "textlint slides.md"
+  }
+}
