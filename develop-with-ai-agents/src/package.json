@@ -1,0 +1,13 @@
+{
+  "name": "src",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /develop-with-ai-agents/ --out ../../dist/develop-with-ai-agents",
+    "dev": "npm run dev:remote",
+    "export": "slidev export --timeout 60000 --with-clicks --with-toc --output ../develop-with-ai-agents.pdf",
+    "dev:remote": "slidev --remote",
+    "dev:local": "slidev",
+    "lint": "textlint slides.md"
+  }
+}
